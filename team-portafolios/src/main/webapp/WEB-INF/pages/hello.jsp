@@ -86,28 +86,28 @@
 <div class="slide story" id="slide-2" data-slide="2">
 	<div class="container">
 		<div class="row title-row">
-			<div class="col-12 font-thin">Contrary to popular belief, <span class="font-semibold">Lorem Ipsum</span> is not simply random text.</div>
+			<div class="col-12 font-thin">Contruibuimos con softwares <span class="font-semibold">Modernos</span> manteniendo los desarrollos actualizados .</div>
 		</div><!-- /row -->
 		<div class="row line-row">
 			<div class="hr">&nbsp;</div>
 		</div><!-- /row -->
 		<div class="row subtitle-row">
-			<div class="col-12 font-thin">This is what <span class="font-semibold">we do best</span></div>
+			<div class="col-12 font-thin">Esto es lo que <span class="font-semibold"> mejor hacemos</span></div>
 		</div><!-- /row -->
 		<div class="row content-row">
 			<div class="col-12 col-lg-3 col-sm-6">
 				<p><i class="icon icon-eye-open"></i></p>
-				<h2 class="font-thin">Visual <span class="font-semibold">Identity</span></h2>
-				<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+				<h2 class="font-thin">Busqueda <span class="font-semibold">Semantica</span></h2>
+				<h4 class="font-thin">Mejoramos los buscadores tradicionales enrriqueciendo los de inteligencia a la hora de hacer consultas en grandes volumenes de registros.</h4>
 			</div><!-- /col12 -->
 			<div class="col-12 col-lg-3 col-sm-6">
 				<p><i class="icon icon-laptop"></i></p>
-				<h2 class="font-thin">Web <span class="font-semibold">Design</span></h2>
+				<h2 class="font-thin">Diseño <span class="font-semibold">Web</span></h2>
 				<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
 			</div><!-- /col12 -->
 			<div class="col-12 col-lg-3 col-sm-6">
 				<p><i class="icon icon-tablet"></i></p>
-				<h2 class="font-thin">Mobile <span class="font-semibold">Apps</span></h2>
+				<h2 class="font-thin">Aplicaciones <span class="font-semibold">Moviles</span></h2>
 				<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
 			</div><!-- /col12 -->
 			<div class="col-12 col-lg-3 col-sm-6">
@@ -120,22 +120,23 @@
 </div><!-- /slide2 -->
 
 <!-- === SLide 3 - Portfolio -->
-<div class="slide story" id="slide-3" data-slide="3">
-	<div class="row">
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p01-large.jpg"><img class="thumb" src="images/portfolio/p01-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p02-large.jpg"><img class="thumb" src="images/portfolio/p02-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p09-large.jpg"><img class="thumb" src="images/portfolio/p09-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p010-large.jpg"><img class="thumb" src="images/portfolio/p10-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p05-large.jpg"><img class="thumb" src="images/portfolio/p05-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p06-large.jpg"><img class="thumb" src="images/portfolio/p06-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p07-large.jpg"><img class="thumb" src="images/portfolio/p07-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p08-large.jpg"><img class="thumb" src="images/portfolio/p08-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p03-large.jpg"><img class="thumb" src="images/portfolio/p03-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p04-large.jpg"><img class="thumb" src="images/portfolio/p04-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p11-large.jpg"><img class="thumb" src="images/portfolio/p11-small.jpg" alt=""></a></div>
-		<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p12-large.jpg"><img class="thumb" src="images/portfolio/p12-small.jpg" alt=""></a></div>
-	</div><!-- /row -->
-</div><!-- /slide3 -->
+<div id="particles2">
+	<div id="intro2">
+		<div class="container">
+			<div class="slide story"  data-slide="3">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="font-semibold">SOLUCIONES <span class="font-thin">INFORMATICA</span></h1>
+						<h4 class="font-thin">Somos un equipo de  <span class="font-semibold"> trabajo independiete</span> con experiencia.</h4>
+						<br>
+						<br>
+					</div><!-- /col-12 -->
+				</div>
+			</div>
+			</div>
+	</div>
+</div><!-- /slide1 -->
+<!-- /slide3 -->
 
 <!-- === Slide 4 - Process === -->
 <div class="slide story" id="slide-4" data-slide="4">

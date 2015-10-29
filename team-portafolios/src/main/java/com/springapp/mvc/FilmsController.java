@@ -26,8 +26,8 @@ public class FilmsController {
     }
 
     @RequestMapping(value = "/getFilms", method = RequestMethod.GET, produces = "application/json")
-    public List<Film> getFilms() {
-        return DUMMY_FILMS;
+    public String getFilms() {
+        return "ok";
     }
 
     @RequestMapping(value = "/postFilms", method = RequestMethod.POST)

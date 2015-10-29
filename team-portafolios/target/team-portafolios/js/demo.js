@@ -12,6 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
 
+document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('particles2'), {
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa'
+  });
+  var intro = document.getElementById('intro2');
+  intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+}, false);
 
 /*
 // jQuery plugin example:
