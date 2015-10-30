@@ -14,7 +14,8 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="prefetch" href="images/zoom.png">
 
@@ -34,12 +35,12 @@
 
 		<div class="nav-collapse collapse navbar-responsive-collapse">
 			<ul class="nav row">
-				<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-				<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
-				<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
-				<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESS</span></a></li>
-				<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTS</span></a></li>
-				<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
+				<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">INICIO</span></a></li>
+				<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">SOFTWARE</span></a></li>
+				<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">NOSOTROS</span></a></li>
+				<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESO</span></a></li>
+				<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTE</span></a></li>
+				<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACTENOS</span></a></li>
 			</ul>
 			<div class="row">
 				<div class="col-sm-2 active-menu"></div>
@@ -73,9 +74,9 @@
 				</div><!-- /col-12 -->
 			</div><!-- /row -->
 			<div id="home-row-2" class="row clearfix">
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>PROFESSIONAL</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/s01.png"></div><span>FRIENDLY</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/s03.png"></div><span>SUITABLE</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/s02.png"></div><span>PROFESIONAL</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/s01.png"></div><span>FACIL</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/s03.png"></div><span>SOLUCION</span></div>
 			</div><!-- /row -->
 			</div>
 		</div>
@@ -119,138 +120,70 @@
 	</div><!-- /container -->
 </div><!-- /slide2 -->
 
-<!-- === SLide 3 - Portfolio -->
-<div id="particles2">
-	<div id="intro2">
-		<div class="container">
-			<div class="slide story"  data-slide="3">
-				<div class="row">
-					<div class="col-12">
-						<h1 class="font-semibold">SOLUCIONES <span class="font-thin">INFORMATICA</span></h1>
-						<h4 class="font-thin">Somos un equipo de  <span class="font-semibold"> trabajo independiete</span> con experiencia.</h4>
-						<br>
-						<br>
-					</div><!-- /col-12 -->
-				</div>
-			</div>
-			</div>
+
+<div class="slide story">
+	<div id="cbp-so-scroller" class="cbp-so-scroller" >
+		<section class="cbp-so-section"  id="slide-3" data-slide="3">
+			<article class="cbp-so-side cbp-so-side-left">
+				<h2>Lemon drops</h2>
+				<p>Fruitcake toffee jujubes. Topping biscuit sesame snaps jelly caramels jujubes tiramisu fruitcake. Marzipan tart lemon drops chocolate sesame snaps jelly beans.</p>
+			</article>
+			<figure class="cbp-so-side cbp-so-side-right">
+				<img src="images/1.png" alt="img01">
+			</figure>
+		</section>
+		<section class="cbp-so-section" id="slide-4" data-slide="4">
+			<figure class="cbp-so-side cbp-so-side-left" >
+				<img src="images/2.png" alt="img01">
+			</figure>
+			<article class="cbp-so-side cbp-so-side-right">
+				<h2>Plum caramels</h2>
+				<p>Lollipop powder danish sugar plum caramels liquorice sweet cookie. Gummi bears caramels gummi bears candy canes cheesecake sweet roll icing dragée. Gummies jelly-o tart. Cheesecake unerdwear.com candy canes apple pie halvah chocolate tiramisu.</p>
+			</article>
+		</section>
+		<section class="cbp-so-section"  id="slide-5" data-slide="5">
+			<article class="cbp-so-side cbp-so-side-left">
+				<h2>Marzipan gingerbread</h2>
+				<p>Soufflé bonbon jelly cotton candy liquorice dessert jelly bear claw candy canes. Pudding halvah bonbon marzipan powder. Marzipan gingerbread sweet jelly.</p>
+			</article>
+			<figure class="cbp-so-side cbp-so-side-right">
+				<img src="images/3.png" alt="img01">
+			</figure>
+		</section>
+		<section class="cbp-so-section"  id="slide-6" data-slide="6">
+			<figure class="cbp-so-side cbp-so-side-left">
+				<img src="images/4.png" alt="img01">
+			</figure>
+			<article class="cbp-so-side cbp-so-side-right">
+				<h2>Carrot cake</h2>
+				<p>Sesame snaps sweet wafer danish. Chupa chups carrot cake icing donut halvah bonbon. Chocolate cake candy marshmallow pudding dessert marzipan jujubes sugar plum.</p>
+			</article>
+		</section>
+		<section class="cbp-so-section"  id="slide-7" data-slide="7">
+			<article class="cbp-so-side cbp-so-side-left">
+				<h2>Pudding lollipop</h2>
+				<p>Chupa chups pudding lollipop gummi bears gummies cupcake pie. Cookie cotton candy caramels. Oat cake dessert applicake. Sweet roll tiramisu sweet roll sweet roll.</p>
+			</article>
+			<figure class="cbp-so-side cbp-so-side-right">
+				<img src="images/5.png" alt="img01">
+			</figure>
+		</section>
+		<section class="cbp-so-section"   id="slide-8" data-slide="8">
+			<figure class="cbp-so-side cbp-so-side-left">
+				<img src="images/6.png" alt="img01">
+			</figure>
+			<article class="cbp-so-side cbp-so-side-right">
+				<h2>Soufflé bonbon</h2>
+				<p>Cake cotton candy lollipop. Cake croissant cheesecake candy sugar plum icing apple pie wafer. Pie sugar plum tiramisu tiramisu pie fruitcake candy icing. Candy icing gummies gummies cheesecake brownie lemon drops chocolate gingerbread.</p>
+			</article>
+		</section>
 	</div>
-</div><!-- /slide1 -->
-<!-- /slide3 -->
-
-<!-- === Slide 4 - Process === -->
-<div class="slide story" id="slide-4" data-slide="4">
-	<div class="container">
-		<div class="row title-row">
-			<div class="col-12 font-thin">See us <span class="font-semibold">at work</span></div>
-		</div><!-- /row -->
-		<div class="row line-row">
-			<div class="hr">&nbsp;</div>
-		</div><!-- /row -->
-		<div class="row subtitle-row">
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			<div class="col-12 col-sm-10 font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-		</div><!-- /row -->
-		<div class="row content-row">
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			<div class="col-12 col-sm-2">
-				<p><i class="icon icon-bolt"></i></p>
-				<h2 class="font-thin">Listening to<br><span class="font-semibold" >your needs</span></h2>
-				<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2">
-				<p><i class="icon icon-cog"></i></p>
-				<h2 class="font-thin">Project<br><span class="font-semibold">discovery</span></h2>
-				<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2">
-				<p><i class="icon icon-cloud"></i></p>
-				<h2 class="font-thin">Storming<br><span class="font-semibold">our brains</span></h2>
-				<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2">
-				<p><i class="icon icon-map-marker"></i></p>
-				<h2 class="font-thin">Getting<br><span class="font-semibold">there</span></h2>
-				<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2">
-				<p><i class="icon icon-gift"></i></p>
-				<h2 class="font-thin">Delivering<br><span class="font-semibold">the product</span></h2>
-				<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-			</div><!-- /col12 -->
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
-</div><!-- /slide4 -->
-
-<!-- === Slide 5 === -->
-<div class="slide story" id="slide-5" data-slide="5">
-	<div class="container">
-		<div class="row title-row">
-			<div class="col-12 font-thin"><span class="font-semibold">Clients</span> we’ve worked with</div>
-		</div><!-- /row -->
-		<div class="row line-row">
-			<div class="hr">&nbsp;</div>
-		</div><!-- /row -->
-		<div class="row subtitle-row">
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			<div class="col-12 col-sm-10 font-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br/><br/> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero.</div>
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-		</div><!-- /row -->
-		<div class="row content-row">
-			<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-			<div class="col-12 col-sm-2"><img src="images/client01.png" alt=""></div>
-			<div class="col-12 col-sm-2"><img src="images/client02.png" alt=""></div>
-			<div class="col-12 col-sm-2"><img src="images/client03.png" alt=""></div>
-			<div class="col-12 col-sm-2"><img src="images/client04.png" alt=""></div>
-			<div class="col-12 col-sm-2"><img src="images/client05.png" alt=""></div>
-			<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
-</div><!-- /slide5 -->
-
-<!-- === Slide 6 / Contact === -->
-<div class="slide story" id="slide-6" data-slide="6">
-	<div class="container">
-		<div class="row title-row">
-			<div class="col-12 font-light">Leave us a <span class="font-semibold">message</span></div>
-		</div><!-- /row -->
-		<div class="row line-row">
-			<div class="hr">&nbsp;</div>
-		</div><!-- /row -->
-		<div class="row subtitle-row">
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			<div class="col-12 col-sm-10 font-light">You can find us literally anywhere, just push a button and we’re there</div>
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-		</div><!-- /row -->
-		<div id="contact-row-4" class="row">
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-			<div class="col-12 col-sm-2 with-hover-text">
-				<p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
-				<span class="hover-text font-light ">+44 4839-4343</span></a>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2 with-hover-text">
-				<p><a target="_blank" href="#"><i class="icon icon-envelope"></i></a></p>
-				<span class="hover-text font-light ">munter@blacktie.co</span></a>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2 with-hover-text">
-				<p><a target="_blank" href="#"><i class="icon icon-home"></i></a></p>
-				<span class="hover-text font-light ">London, England<br>zip code 98443</span></a>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2 with-hover-text">
-				<p><a target="_blank" href="#"><i class="icon icon-facebook"></i></a></p>
-				<span class="hover-text font-light ">facebook/blacktie_co</span></a>
-			</div><!-- /col12 -->
-			<div class="col-12 col-sm-2 with-hover-text">
-				<p><a target="_blank" href="#"><i class="icon icon-twitter"></i></a></p>
-				<span class="hover-text font-light ">@BlackTie_co</span></a>
-			</div><!-- /col12 -->
-			<div class="col-sm-1 hidden-sm">&nbsp;</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
-</div><!-- /Slide 6 -->
-
+</div>
+<script src="js/classie.js"></script>
+<script src="js/cbpScroller.js"></script>
+<script>
+	new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+</script>
 </body>
 
 <!-- SCRIPTS -->
