@@ -3,6 +3,8 @@
 	overflow: hidden;
 }
 
+
+
 .cbp-so-section {
 	margin-bottom: 15em;
 }
@@ -24,6 +26,12 @@
 	font-weight: 300;
 	line-height: 1;
 }
+.cbp-so-section h3 {
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1;
+}
+
 
 .cbp-so-section p {
 	font-size: 2em;

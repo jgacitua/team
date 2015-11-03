@@ -253,7 +253,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 	//Cache some variables
 	var images = $('#slide-3 a');
-	
+
 	images.hover(
 		function(e) {
 			var asta = $(this).find('img');
@@ -289,19 +289,19 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 	//Cache some variables
 	var arrows = $('#arrows div');
-	
+
 	arrows.click(function(e) {
 		e.preventDefault();
-		
+
 		if ( $(this).hasClass('disabled') )
 			return;
-		
+
 		var slide = null;
 		var datasheet = $('.nav > li.active').data('slide');
 		var offset_top = false;
 		var offset_left = false;
-		
-		
+
+
 		switch( $(this).attr('id') ) {
 			case 'arrow-up':
 				offset_top = ( datasheet - 1 == 1 ) ? '0px' : $('.slide[data-slide="' + (datasheet-1) + '"]').offset().top;
@@ -322,13 +322,13 @@ jQuery(document).ready(function ($) {
 				}
 				break;
 		}
-		
+
 		if ( offset_top != false ) {
 			htmlbody.stop(false, false).animate({
 				scrollTop: offset_top
 			}, 1500, 'easeInOutQuart');
 		}
-		
+
 		if ( offset_left != false ) {
 			if ( $('#slide-3 .row').width() != $('body').width() ) {
 				$('#slide-3 .row').stop(false, false).animate({

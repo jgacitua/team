@@ -12,4 +12,9 @@ public class HelloController {
 		model.addAttribute("message", "Hello world! test");
 		return "hello";
 	}
+	/*@RequestMapping(value = "/index2")
+	public String printWelcome2(ModelMap model) {
+		model.addAttribute("message", "Hello world! test");
+		return "index2";
+	}*/
 }
