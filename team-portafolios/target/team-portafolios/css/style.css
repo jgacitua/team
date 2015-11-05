@@ -394,17 +394,15 @@ body {
 		font-size: 20px;
 	}
 }
+
 #slide-4 {
-	background-color: #303030;
-	color: #e4e6e5;
-	padding-top: 90px;
+	background-color: #ffffff;
+	color: #181818;
+	padding-top: 45px;
 }
 
-
-
-
 #slide-5 {
-	background-color: #181818;
+	background-color: #303030;
 	color: #e4e6e5;
 	padding-top: 90px;
 }

@@ -1,7 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
 <html>
 <head lang="en">
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html"charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <title>MUNTER - Free Bootstrap 3 One Page Theme</title>
@@ -37,9 +38,8 @@
       <ul class="nav row">
         <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">INICIO</span></a></li>
         <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">SOFTWARE</span></a></li>
-        <li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">NOSOTROS</span></a></li>
         <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESO</span></a></li>
-        <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTE</span></a></li>
+        <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">EXPERIENCIA</span></a></li>
         <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACTENOS</span></a></li>
       </ul>
       <div class="row">
@@ -48,8 +48,6 @@
     </div><!-- /.nav-collapse -->
   </div><!-- /.container -->
 </div><!-- /.navbar -->
-
-
 <!-- === Arrows === -->
 <div id="arrows">
   <div id="arrow-up" class="disabled"></div>
@@ -57,25 +55,26 @@
   <div id="arrow-left" class="disabled visible-lg"></div>
   <div id="arrow-right" class="disabled visible-lg"></div>
 </div><!-- /.arrows -->
-
-
 <!-- === MAIN Background === -->
-
 <div id="particles">
   <div id="intro">
     <div class="container">
       <div class="slide story"  data-slide="1">
         <div id="home-row-1" class="row clearfix">
           <div class="col-12">
+
+
+
+            
             <h1 class="font-semibold">SOLUCIONES <span class="font-thin">INFORMATICA</span></h1>
-            <h4 class="font-thin">Somos un equipo de  <span class="font-semibold"> trabajo independiete</span> con experiencia.</h4>
+            <h4 class="font-thin">Somos un equipo con <span class="font-semibold">experiencia </span> en desarrollo de software empresarial</h4>
             <br>
             <br>
           </div><!-- /col-12 -->
         </div><!-- /row -->
         <div id="home-row-2" class="row clearfix">
           <div class="col-12 col-sm-4"><div class="home-hover" data-slide="4"><img class="img-circle" src="images/francisco.jpg"></div><span>Francisco Rojas</span></div>
-          <div class="col-12 col-sm-4"><div class="home-hover" data-slide="3"><img class="img-circle" src="images/jorge.jpg"></div><span>Jorge Gacitua</span></div>
+          <div class="col-12 col-sm-4"><div class="home-hover" data-slide="3"><img class="img-circle" src="images/jorge.jpg"></div><span>Jorge Gacitúa</span></div>
           <div class="col-12 col-sm-4"><div class="home-hover" data-slide="5"><img class="img-circle" src="images/hernan.jpg"></div><span>Hernan Fick</span></div>
         </div><!-- /row -->
       </div>
@@ -118,14 +117,27 @@
     </div><!-- /row -->
   </div><!-- /container -->
 </div><!-- /slide2 -->
-<div class="slide story" id="slide-4" data-slide="2">
+<div class="slide story" id="slide-4" data-slide="4">
+  <div class="container">
+    <div class="row">
+      <img src="/images/devices.png">
+    </div>
+    <div class="row title-row">
+      <div class="col-12">
+        <h1 class="font-semibold">Diseño de sitios web para diferentes plataformas y dispositivos</h1>
+      </div>
+    </div><!-- /row -->
+    <div class="row line-row">
+      <div class="hr">&nbsp;</div>
+    </div><!-- /row -->
+  </div><!-- /container -->
+</div>
+<div class="slide story" id="slide-5" data-slide="5">
   <div class="container">
     <div class="row title-row">
       <div class="col-12">
         <h1 class="font-semibold">EXPERIENCIA <span class="font-thin">EN PROYECTOS</span></h1>
         <h4 class="font-thin">Somos un equipo de  <span class="font-semibold"> trabajo independiete</span> con experiencia.</h4>
-        <br>
-        <br>
       </div>
     </div><!-- /row -->
     <div class="row line-row">
@@ -231,3 +243,4 @@
   });
 </script>
 
+</html>
